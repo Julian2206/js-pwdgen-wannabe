@@ -22,3 +22,12 @@ document.getElementById("color").innerHTML = favoriteColor;
 document.getElementById("password").innerHTML = myPassword;
 
 //alert(usrName + lastName + favoriteColor);
+
+// IMP. (i++) the value of i before increment
+
+for (let i = 0; i < 10; i++) {
+  console.log(myPassword);
+  if (i % 2 !== 0) console.log(i);
+}
+
+//test
